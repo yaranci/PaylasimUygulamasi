@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8752D92996DFA3007FD8EA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8752D82996DFA3007FD8EA /* FeedViewController.swift */; };
+		1E8752DB2996DFB9007FD8EA /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8752DA2996DFB9007FD8EA /* UploadViewController.swift */; };
+		1E8752DD2996DFC8007FD8EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8752DC2996DFC8007FD8EA /* SettingsViewController.swift */; };
+		1E8752DF29982B61007FD8EA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8752DE29982B61007FD8EA /* FeedCell.swift */; };
+		1E8752E1299962DF007FD8EA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8752E0299962DF007FD8EA /* Post.swift */; };
+		1EC568662996DC150035A0F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC568652996DC150035A0F5 /* AppDelegate.swift */; };
+		1EC568682996DC150035A0F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC568672996DC150035A0F5 /* SceneDelegate.swift */; };
+		1EC5686A2996DC150035A0F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC568692996DC150035A0F5 /* ViewController.swift */; };
+		1EC5686D2996DC150035A0F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC5686B2996DC150035A0F5 /* Main.storyboard */; };
+		1EC5686F2996DC160035A0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC5686E2996DC160035A0F5 /* Assets.xcassets */; };
+		1EC568722996DC160035A0F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC568702996DC160035A0F5 /* LaunchScreen.storyboard */; };
+		1EC5687A2996DD170035A0F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EC568792996DD170035A0F5 /* GoogleService-Info.plist */; };
+		6B7C15B2C1B8B1AAC4408A45 /* Pods_PaylasimUyg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C6AD298151A7A71061C1C1 /* Pods_PaylasimUyg.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E8752D82996DFA3007FD8EA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1E8752DA2996DFB9007FD8EA /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		1E8752DC2996DFC8007FD8EA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1E8752DE29982B61007FD8EA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		1E8752E0299962DF007FD8EA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1EC568622996DC150035A0F5 /* PaylasimUyg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaylasimUyg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC568652996DC150035A0F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EC568672996DC150035A0F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EC568692996DC150035A0F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EC5686C2996DC150035A0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EC5686E2996DC160035A0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EC568712996DC160035A0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EC568732996DC160035A0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC568792996DD170035A0F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A74D124B16122E7DD203374 /* Pods-PaylasimUyg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaylasimUyg.release.xcconfig"; path = "Target Support Files/Pods-PaylasimUyg/Pods-PaylasimUyg.release.xcconfig"; sourceTree = "<group>"; };
+		64C6AD298151A7A71061C1C1 /* Pods_PaylasimUyg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaylasimUyg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC0C65E05B88109A7958CB /* Pods-PaylasimUyg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaylasimUyg.debug.xcconfig"; path = "Target Support Files/Pods-PaylasimUyg/Pods-PaylasimUyg.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC5685F2996DC150035A0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7C15B2C1B8B1AAC4408A45 /* Pods_PaylasimUyg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC568592996DC150035A0F5 = {
+			isa = PBXGroup;
+			children = (
+				1EC568642996DC150035A0F5 /* PaylasimUyg */,
+				1EC568632996DC150035A0F5 /* Products */,
+				33D5BA69A3B84C68B3794036 /* Pods */,
+				7CA91B0BB1C953F572DE8EBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC568632996DC150035A0F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC568622996DC150035A0F5 /* PaylasimUyg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC568642996DC150035A0F5 /* PaylasimUyg */ = {
+			isa = PBXGroup;
+			children = (
+				1EC568652996DC150035A0F5 /* AppDelegate.swift */,
+				1EC568672996DC150035A0F5 /* SceneDelegate.swift */,
+				1E8752D82996DFA3007FD8EA /* FeedViewController.swift */,
+				1E8752E0299962DF007FD8EA /* Post.swift */,
+				1E8752DE29982B61007FD8EA /* FeedCell.swift */,
+				1E8752DA2996DFB9007FD8EA /* UploadViewController.swift */,
+				1E8752DC2996DFC8007FD8EA /* SettingsViewController.swift */,
+				1EC568692996DC150035A0F5 /* ViewController.swift */,
+				1EC5686B2996DC150035A0F5 /* Main.storyboard */,
+				1EC5686E2996DC160035A0F5 /* Assets.xcassets */,
+				1EC568702996DC160035A0F5 /* LaunchScreen.storyboard */,
+				1EC568732996DC160035A0F5 /* Info.plist */,
+				1EC568792996DD170035A0F5 /* GoogleService-Info.plist */,
+			);
+			path = PaylasimUyg;
+			sourceTree = "<group>";
+		};
+		33D5BA69A3B84C68B3794036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC0C65E05B88109A7958CB /* Pods-PaylasimUyg.debug.xcconfig */,
+				4A74D124B16122E7DD203374 /* Pods-PaylasimUyg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CA91B0BB1C953F572DE8EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C6AD298151A7A71061C1C1 /* Pods_PaylasimUyg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC568612996DC150035A0F5 /* PaylasimUyg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC568762996DC160035A0F5 /* Build configuration list for PBXNativeTarget "PaylasimUyg" */;
+			buildPhases = (
+				BC862324C09A78B3496F0041 /* [CP] Check Pods Manifest.lock */,
+				1EC5685E2996DC150035A0F5 /* Sources */,
+				1EC5685F2996DC150035A0F5 /* Frameworks */,
+				1EC568602996DC150035A0F5 /* Resources */,
+				1C65A0978C01EEA847BC3E81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaylasimUyg;
+			productName = PaylasimUyg;
+			productReference = 1EC568622996DC150035A0F5 /* PaylasimUyg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC5685A2996DC150035A0F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1EC568612996DC150035A0F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EC5685D2996DC150035A0F5 /* Build configuration list for PBXProject "PaylasimUyg" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EC568592996DC150035A0F5;
+			productRefGroup = 1EC568632996DC150035A0F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC568612996DC150035A0F5 /* PaylasimUyg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC568602996DC150035A0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC568722996DC160035A0F5 /* LaunchScreen.storyboard in Resources */,
+				1EC5687A2996DD170035A0F5 /* GoogleService-Info.plist in Resources */,
+				1EC5686F2996DC160035A0F5 /* Assets.xcassets in Resources */,
+				1EC5686D2996DC150035A0F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C65A0978C01EEA847BC3E81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaylasimUyg/Pods-PaylasimUyg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaylasimUyg/Pods-PaylasimUyg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaylasimUyg/Pods-PaylasimUyg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC862324C09A78B3496F0041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaylasimUyg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC5685E2996DC150035A0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8752DF29982B61007FD8EA /* FeedCell.swift in Sources */,
+				1EC5686A2996DC150035A0F5 /* ViewController.swift in Sources */,
+				1E8752DB2996DFB9007FD8EA /* UploadViewController.swift in Sources */,
+				1E8752E1299962DF007FD8EA /* Post.swift in Sources */,
+				1EC568662996DC150035A0F5 /* AppDelegate.swift in Sources */,
+				1E8752D92996DFA3007FD8EA /* FeedViewController.swift in Sources */,
+				1EC568682996DC150035A0F5 /* SceneDelegate.swift in Sources */,
+				1E8752DD2996DFC8007FD8EA /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EC5686B2996DC150035A0F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EC5686C2996DC150035A0F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EC568702996DC160035A0F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EC568712996DC160035A0F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EC568742996DC160035A0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EC568752996DC160035A0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC568772996DC160035A0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEC0C65E05B88109A7958CB /* Pods-PaylasimUyg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaylasimUyg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaranci.PaylasimUyg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EC568782996DC160035A0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A74D124B16122E7DD203374 /* Pods-PaylasimUyg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaylasimUyg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaranci.PaylasimUyg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC5685D2996DC150035A0F5 /* Build configuration list for PBXProject "PaylasimUyg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC568742996DC160035A0F5 /* Debug */,
+				1EC568752996DC160035A0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC568762996DC160035A0F5 /* Build configuration list for PBXNativeTarget "PaylasimUyg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC568772996DC160035A0F5 /* Debug */,
+				1EC568782996DC160035A0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EC5685A2996DC150035A0F5 /* Project object */;
+}
